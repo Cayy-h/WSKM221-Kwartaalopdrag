@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Papers - Gauteng Education</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gauteng Department of Education</h1>
+        <nav>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#exam-papers">Exam Papers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="exam-papers">
+            <h2>Exam Papers</h2>
+            <p>Welcome to the exam papers repository. Here you can find exam papers for various grades and subjects.</p>
+            
+            <div class="paper-list">
+                <h3>Grade 12</h3>
+                <ul>
+                    <li><a href="papers/grade12/math_2023.pdf" target="_blank">Mathematics - 2023</a></li>
+                    <li><a href="papers/grade12/english_2023.pdf" target="_blank">English - 2023</a></li>
+                </ul>
+
+                <h3>Grade 11</h3>
+                <ul>
+                    <li><a href="papers/grade11/physics_2023.pdf" target="_blank">Physics - 2023</a></li>
+                    <li><a href="papers/grade11/biology_2023.pdf" target="_blank">Biology - 2023</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gauteng Department of Education. All rights reserved.</p>
+    </footer>
+</body>
+</html>
